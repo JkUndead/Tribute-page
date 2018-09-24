@@ -1,12 +1,14 @@
 body{
   background-color: LightGrey;
 }
+#header{
+  background-color: white;
+}
 #title{
   text-align: center;
   font-size: 60px;
   font-family: monospace;
-  margin-bottom: 5px;
-  background-color: white;
+  margin-bottom: 20px;
 }
 #date{
   text-align: center;
@@ -46,5 +48,9 @@ img{
   margin-top: 20px;
 }
 ol{
-  font-family: cursive;
+  font-family: sans-serif;
+}
+li{
+  margin: 10px 0px 5px 0px;
+  position: relative;
 }
